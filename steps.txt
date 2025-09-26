@@ -1,0 +1,12 @@
+1- Install Pulumi in my machine
+2- Login on Pulumi using CLI
+    Command : pulumi login 
+      - Adding AccessToken from Pulumi Dashboard
+3- Create Pulumi Project 
+    Command: pulumi new
+4 - Add Netlify 
+    Command: pulumi package add terraform-provider netlify/netlify
+5- set netlify access token to pulumi 
+    Command: pulumi config set netlify:token nfp_eVoMwSjYiREhCuFgFbwoHfW2LAFMApi2d291 --secret
+6- publish 
+    Command: pulumi up
